@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a{
+    color: rgb(9, 226, 27);
+
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+   
+}
+.common-hr{
+    border: 1px solid #fff;
+    border-bottom: none;
+    width: 100%;
+    margin: 30px auto;
+}
+hr{
+    border: 3px solid #fff;
+    border-bottom: none;
+    width: 100%;
+    margin: 30px auto;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1400px;
+    background-color: rgb(34, 55, 58);
+    margin: 0 auto;
+    padding: 20px;
+}
+.pro-img{
+    width: 100px;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    float: left;
+}
+.pro-bio{
+    float: left;
+    padding: 25px;
+}
+.pro-contact{
+    float: right;
+    padding: 20px;
+}
+.pro-contact a{
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    
+}
+.pro-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+    
+}
+.content{
+    padding: 20px;
+}
+.left-div{
+    float: left;
+    width: 30%;
+}
+.right-div{
+    float: left;
+    width: 70%;
+    color: #ddd;
+}
+.right-div h3{
+    margin: 10 0px;
+}
+.right-div h5{
+    margin: 10 0px;
+}
+.right-div p{
+    margin-top: 20px;
+}
+
+.rights-left{
+    float: left;
+    width: 45%;
+}
+.rights-right{
+    float: right;
+    width: 45%;
+}
+
+.foot-bootom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.foot-bootom a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    display: inline-block;
+}
+.foot-bootom p{
+    color: #fff;
+    margin-top: 20px;
+}
